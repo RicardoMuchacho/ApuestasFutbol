@@ -14,9 +14,8 @@ api.js   -> contiene las funciones para obtener la data de la api e insertarla a
 server.js -> server
 carpeta public -> recursos y pagina web
 
-recursos:
-Base de Datos/ Modelado
-https://dbdiagram.io/d/607e2991b29a09603d11337c
+Modelado de Datos
+https://dbdiagram.io/d/60863744b29a09603d121522
 
 API
 https://app.sportdataapi.com/
