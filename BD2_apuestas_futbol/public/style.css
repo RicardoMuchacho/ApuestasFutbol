@@ -1,0 +1,148 @@
+/*colors
+background-color: #FF6F61; coral
+background-color: #f7cac9);; white-pink
+verde claro #cce0cc
+verde clarisimo #e6f0e6 rgb(230, 240, 230)
+verde medio claro #b3d1b3
+gris claro: #eeeeee
+*/
+
+*{
+ font-family: "Montserrat", sans-serif}
+}
+
+body, html {
+	height: 100%;
+	margin:0;
+    font-size: 16px;
+}
+h1 {
+	text-align: center;
+	color: black;
+}
+
+p{
+ font-weight: bold;
+}
+
+.bg {
+	background-image: url("/images/futbol_background.jpg");
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+
+}
+
+.loginContainer, .userContainer, .registerContainer, .betContainer{
+    background: rgba(230, 240, 230, 0.6);
+	border-radius: 5px;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+	max-width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+	0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.regContainer{
+	margin: auto;
+	padding: 30px 0px 0px 0px;
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}*/
+
+input{
+	width: 100%;
+	padding: 5px;
+	margin: 6px 0;	
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+
+input[type=radio]{
+	width: 10%;
+}
+
+input[type=submit]{
+
+	background-color: #FF6F61;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+/*.registerBtn{
+	background-color: #e6f0e6;
+	width: 40%;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 20px;
+	border: 1px solid #2d2d2d;
+	cursor: pointer;
+}*/
+/* for positioning in middle
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%,-50%);
+*/
+
+
+.loginBtn, .registerBtn, .betBtn{
+	background-color: #e6f0e6;
+	display: inline-blobk;
+	width: 25%;
+	margin-top: 10px;
+	padding: 8px;
+	border-radius: 4px;
+	font-size: 16px;
+	border: 1px solid #2d2d2d;
+	cursor: pointer;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+footer{
+	background-color: #cce0cc;
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+}

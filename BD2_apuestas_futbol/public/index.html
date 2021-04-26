@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script data-main="scripts/index" src="scripts/require.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SimpleBets</title>
+</head>
+<div class="topnav">
+  <a class="active" href="#home">SimpleBets</a>
+  <a href="#User">User</a>
+  <a href="#Upcoming">Upcoming</a>
+  <a href="#Results">Results</a>
+  <a href="#Bets">Bets</a>
+</div>
+<body>
+ <div class ="bg">
+ 
+  <div class="betContainer">
+   <form id="betForm">
+
+    <p id="game_id"> Game id: </p>
+    <p id="home"> Home Team: Barcelona</p>
+    <p id="away"> Away Team: Barcelona</p>
+    <p id="date"> Date: </p>
+
+    <input type="radio" id="win_local" name="option" value="true">
+    <label for= "win_local"> Local Wins </label><br>
+    <input type="radio" id="win_away" name="option" value="false">
+    <label for= "win_away"> Away Wins </label><br>
+    <input type="radio" id="draw" name="option" value="false">
+    <label for= "draw"> Draw </label><br><br>
+
+    <button onclick="bet()" class="betBtn" id="betBtn" > Make Bet</button>
+
+   </form>
+  </div>
+ </div>
+
+</body>
+<script src="/scripts/index.js"></script>
+<footer>
+ <p> Ricardo Muchacho. Ci:27849052, Tomas Sandoval Ci:25194896</p>
+</footer>
+</html>
