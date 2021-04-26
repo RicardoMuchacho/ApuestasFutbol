@@ -6,7 +6,8 @@ No se logro tener la web app funcional
 Instrucciones:
 1. Descargar el archivo futbol_db.sql y restaurar la bd
 2. Abrir la carpeta BD2_apuestas_futbol con un editor
-3. correr en el terminal -> node server.js  - actualiza la db cada hora y habilita la pagina web
+3. Cambiar valores en db.js de Cliente y Pool (user, pass, port, database) a los correspondientes para conectar a la base
+4. correr en el terminal -> node server.js  - actualiza la db cada hora y habilita la pagina web
 
 Archivos:
 db.js    -> contiene todas las funciones para manipular la bd
