@@ -4,7 +4,7 @@ Se logro crear, insertar y actualizar la base con la api
 No se logro tener la web app funcional
 
 Instrucciones:
-1. Descargar el archivo FutbolBD.sql y restaurar la bd
+1. Descargar el archivo futbol_db.sql y restaurar la bd
 2. Abrir la carpeta BD2_apuestas_futbol con un editor
 3. correr en el terminal -> node server.js  - actualiza la db cada hora y habilita la pagina web
 
